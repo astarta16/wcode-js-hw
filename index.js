@@ -47,3 +47,8 @@ console.log("final result:", fruit.length);
 let array3 = [1, 2, 3, 4, 5];
 array3.splice(3, 0, "a", "b", "c");
 console.log(array3);
+
+// N7
+let array7 = [15, 100, 25, 10, 36];
+array7.splice(3, 1);
+console.log(array7);
