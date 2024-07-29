@@ -18,3 +18,16 @@ function getStringLength(str) {
 
 let exampleString = "hello world";
 console.log(getStringLength(exampleString));
+
+// N4
+
+let list = [5, 25, 89, 120, 36];
+
+list.push("javascript", "python");
+list.unshift("html", "css");
+console.log(list.length);
+
+myArray.shift();
+myArray.pop();
+
+console.log(list);
