@@ -52,3 +52,8 @@ console.log(array3);
 let array7 = [15, 100, 25, 10, 36];
 array7.splice(3, 1);
 console.log(array7);
+
+// N8
+let array8 = [ 1, 2 , 3 , 4, 5] 
+array8.splice(2, 1, "three");
+console.log(array8)
