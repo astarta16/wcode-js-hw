@@ -54,6 +54,17 @@ array7.splice(3, 1);
 console.log(array7);
 
 // N8
-let array8 = [ 1, 2 , 3 , 4, 5] 
+let array8 = [1, 2, 3, 4, 5];
 array8.splice(2, 1, "three");
-console.log(array8)
+console.log(array8);
+
+// N9
+
+let array4 = [1, 2, 3, 4, 5];
+let sum = 0;
+
+array4.forEach((number) => {
+  sum += number;
+});
+
+console.log(sum);
