@@ -38,7 +38,12 @@ console.log(fruit.length);
 fruit.push("apple", "pineapple");
 fruit.unshift("Watermelon");
 console.log(fruit.length);
-fruit.splice(2,0, "mango")
-fruit.shift()
-fruit.pop()
-console.log("final result:", fruit.length)
+fruit.splice(2, 0, "mango");
+fruit.shift();
+fruit.pop();
+console.log("final result:", fruit.length);
+
+// N6
+let array3 = [1, 2, 3, 4, 5];
+array3.splice(3, 0, "a", "b", "c");
+console.log(array3);
