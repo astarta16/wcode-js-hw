@@ -31,3 +31,14 @@ myArray.shift();
 myArray.pop();
 
 console.log(list);
+
+// N5
+let fruit = ["orange", "banana", "kiwi"];
+console.log(fruit.length);
+fruit.push("apple", "pineapple");
+fruit.unshift("Watermelon");
+console.log(fruit.length);
+fruit.splice(2,0, "mango")
+fruit.shift()
+fruit.pop()
+console.log("final result:", fruit.length)
