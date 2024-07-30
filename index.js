@@ -70,4 +70,17 @@ array4.forEach((number) => {
 console.log(sum);
 
 // N10
+let array2 = [14, 150, 'css', null, 'javascript', 25];
+
+let newArray = array2.map(element => {
+  if (typeof element === 'number') {
+    return element ** 2;
+  } else if (typeof element === 'string') {
+    return element.toUpperCase();
+  } else {
+    return element;
+  }
+});
+
+console.log(newArray);
 
