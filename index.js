@@ -85,4 +85,16 @@ let newArray = array2.map(element => {
 console.log(newArray);
 
 // N11
+let correctAnswer = 'tbilisi'
+
+function askQuestion() {
+    const userAnswer = prompt("country of georgia? ").toLowerCase()
+    
+    if (userAnswer === correctAnswer.toLowerCase()) {
+        console.log("correct")
+    } else {
+        console.log("incorrect")
+    }
+}
+askQuestion();
 
