@@ -84,3 +84,5 @@ let newArray = array2.map(element => {
 
 console.log(newArray);
 
+// N11
+
