@@ -68,3 +68,6 @@ array4.forEach((number) => {
 });
 
 console.log(sum);
+
+// N10
+
