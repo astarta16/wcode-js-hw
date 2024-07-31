@@ -114,3 +114,6 @@ let filteredLanguages = languages.filter(element => element.length > 3);
 console.log(filteredLanguages)
 
 // N15
+let words = ['Madrid', 'rome', 'Milan', 'berlin'];
+let filteredWords = words.filter(word => word.includes('m') || word.includes('M'));
+console.log(filteredWords)
