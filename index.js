@@ -148,3 +148,10 @@ let sumOfNumbers = numberArray.reduce((element, num) => element + num, 0);
 console.log(sumOfNumbers)
 
 // N19
+
+function calculateSum(stringNumber) {
+    return stringNumber.split('').reduce((acc, char) => acc + Number(char), 0);
+}
+let stringNumber = '123234245';
+console.log(calculateSum(stringNumber));
+
