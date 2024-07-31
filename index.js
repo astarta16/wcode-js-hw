@@ -140,3 +140,9 @@ if (hasPositiveNumber) {
 }
 
 // N18
+let stringNumber = '12345';
+
+let numberArray = stringNumber.split('').map(Number)
+
+let sumOfNumbers = numberArray.reduce((acc, num) => acc + num, 0);
+console.log(sumOfNumbers)
