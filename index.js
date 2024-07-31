@@ -107,3 +107,5 @@ console.log(newArray5)
  let array1 =["hello1", 14,24, "hello2"];
  let numbersArray1 = array1.filter(element => typeof element === 'number');
  console.log(numbersArray1)
+
+// N14
