@@ -138,3 +138,5 @@ if (hasPositiveNumber) {
 } else {
     console.log("მასივში არ არის დადებითი რიცხვი");
 }
+
+// N18
