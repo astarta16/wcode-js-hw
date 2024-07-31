@@ -109,3 +109,6 @@ console.log(newArray5)
  console.log(numbersArray1)
 
 // N14
+let languages = ['html', 'css', 'javascript', "python", 'php'];
+let filteredLanguages = languages.filter(element => element.length > 3);
+console.log(filteredLanguages)
