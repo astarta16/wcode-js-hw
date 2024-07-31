@@ -128,3 +128,5 @@ function checkLink(link) {
 }
 
 checkLink("https://google.com")
+
+// N17
