@@ -99,8 +99,9 @@ function askQuestion() {
 askQuestion();
 
 // N12
-
 let  array5 = [12, 25, 3, 6, 8, 14, 7, 23];
 let newArray5 = array5.map(element => element /3)
 console.log(newArray5)
+
+// N13
 
