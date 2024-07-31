@@ -155,3 +155,5 @@ function calculateSum(stringNumber) {
 let stringNumber = '123234245';
 console.log(calculateSum(stringNumber));
 
+// N20
+
