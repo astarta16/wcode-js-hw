@@ -146,3 +146,5 @@ let numberArray = stringNumber.split('').map(Number)
 
 let sumOfNumbers = numberArray.reduce((acc, num) => acc + num, 0);
 console.log(sumOfNumbers)
+
+// N19
