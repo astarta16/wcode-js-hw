@@ -117,3 +117,5 @@ console.log(filteredLanguages)
 let words = ['Madrid', 'rome', 'Milan', 'berlin'];
 let filteredWords = words.filter(word => word.includes('m') || word.includes('M'));
 console.log(filteredWords)
+
+// N16
