@@ -130,3 +130,11 @@ function checkLink(link) {
 checkLink("https://google.com")
 
 // N17
+let array6 = [-1, -2, -3, 4];
+let hasPositiveNumber = array6.some(element => element > 0);
+
+if (hasPositiveNumber) {
+    console.log("მასიავში არის დადებითი რიცხვი");
+} else {
+    console.log("მასივში არ არის დადებითი რიცხვი");
+}
