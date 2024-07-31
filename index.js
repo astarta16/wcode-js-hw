@@ -119,3 +119,12 @@ let filteredWords = words.filter(word => word.includes('m') || word.includes('M'
 console.log(filteredWords)
 
 // N16
+function checkLink(link) {
+    if(link.includes("https://")) {
+        console.log("მოიცავს");
+    } else {
+        console.log("არა, არ მოიცავს");
+    }
+}
+
+checkLink("https://google.com")
